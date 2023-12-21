@@ -1,3 +1,8 @@
+# Proyecto de juego de adivinacion
+# uso de la libreria random
+# uso de loops (for)
+# uso de if, elif y else
+
 from random import *
 
 print("Intente adivinar el número entero que elegí, tiene 8 intentos.")
@@ -16,5 +21,8 @@ for intento in range(1,9):
         print("El número ingresado es mayor.")
     else:
         print("Adivinó el número!!")
-        print(f"Intentos: {intento} \nNúmero: ")
+        print(f"Intentos: {intento} \nNúmero: {aleatorio}")
         break
+
+if intento == 8 and numero != aleatorio:
+    print(f"Número: {aleatorio}")
