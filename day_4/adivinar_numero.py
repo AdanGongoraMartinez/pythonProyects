@@ -7,7 +7,10 @@ from random import *
 
 print("Intente adivinar el número entero que elegí, tiene 8 intentos.")
 
-aleatorio = int(random()*100)
+#aleatorio = int(random()*100)
+aleatorio = randint(0,100)
+
+print(aleatorio)
 
 for intento in range(1,9):
     print(f"Intento #{intento}")
