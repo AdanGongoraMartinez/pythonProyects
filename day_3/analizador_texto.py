@@ -40,7 +40,7 @@ print("\n")
 print("TEXTO INVERTIDO")
 palabras.reverse()
 texto_invertido = ' '.join(palabras)
-print(f"Si ordenas el texto al revésva a decir: \n'{texto_invertido}'")
+print(f"Si ordenas el texto al revés va a decir: \n'{texto_invertido}'")
 
 print("\n")
 print("BUSCAR PYTHON")
