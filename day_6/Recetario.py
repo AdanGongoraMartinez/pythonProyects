@@ -172,7 +172,6 @@ while not finalizar_programa:
         mis_categorias = mostrar_categorias(mi_ruta)
         mi_categoria = elegir_categoria(mis_categorias)
         mis_recetas = mostrar_recetas(mi_categoria)
-        mi_receta = elegir_recetas(mis_recetas)
         if len(mis_recetas) < 1:
             print("No hay recetas en esta categoria.")
         else:
